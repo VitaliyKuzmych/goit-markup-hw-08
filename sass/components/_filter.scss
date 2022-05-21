@@ -1,0 +1,15 @@
+.filter {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__item {
+            margin-right: 8px;
+        }
+    &__item:last-child {
+        margin-right: 0px;
+    }
+}
