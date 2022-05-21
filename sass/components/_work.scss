@@ -42,3 +42,9 @@
         padding-top: 27px;
     }
 }
+
+@media (max-width:1199px) {
+    .section--padding {
+        display: none;
+    }
+}
