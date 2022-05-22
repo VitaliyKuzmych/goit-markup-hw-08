@@ -1,12 +1,15 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p,
 h1,
 h2,
 h3,
-ul,
-li,
-a,
-p {
-    margin: 0px;
-    padding: 0px;
+h4 {
+    margin: 0;
 }
 
 .work,
@@ -34,8 +37,9 @@ img {
     box-sizing: border-box;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }

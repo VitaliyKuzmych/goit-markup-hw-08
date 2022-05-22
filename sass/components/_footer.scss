@@ -19,6 +19,7 @@
     &__contacts {
         display: inline-block;
         color: rgba(255, 255, 255, 0.6);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     &__title {
@@ -28,6 +29,10 @@
         line-height: 1.14;
 
         color: $secondary-text-color;
+    }
+
+    &__contacts:hover {
+        color: $accent-color;
     }
 }
 
