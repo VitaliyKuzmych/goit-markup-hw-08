@@ -18,9 +18,9 @@ body {
     padding-bottom: 60px;
 
     &--padding {
-            padding-top: 0px;
-            padding-bottom: 94px;
-        }
+        padding-top: 0px;
+        padding-bottom: 94px;
+    }
 }
 
 
@@ -42,21 +42,20 @@ body {
         max-width: 1200px;
     }
 }
+
 @media (min-width:768px) {
     .container {
         max-width: 768px;
     }
 }
+
 @media (min-width:1200px) {
     .section {
         padding-top: 94px;
         padding-bottom: 94px;
     }
+
     .container {
         max-width: 1200px;
     }
-    .title {
-        font-size: 36px;
-        margin-bottom: 50px;
-    }
-    }
+}

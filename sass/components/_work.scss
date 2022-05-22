@@ -1,28 +1,39 @@
 .team {
     margin-top: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1, 16;
     letter-spacing: 0.03em;
     text-align: center;
 }
 
- .work {
-        display: flex;
-        padding: 0px;
-        justify-content: space-between;
+@media screen and (min-width:1200px) {
+    .team {
+        margin-bottom: 50px;
+        font-size: 36px;
+    }
+}
+
+
+.work {
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
 
     &__item {
-            margin-right: 30px;
-        }
+        margin-right: 30px;
+    }
+
     &__item:last-child {
         margin-right: 0px;
     }
+
     &__thumb {
         position: relative;
         height: 294px;
     }
+
     &__text {
         position: absolute;
         width: 100%;
@@ -31,8 +42,9 @@
         bottom: 0;
         background: rgba(47, 48, 58, 0.8);
     }
+
     &__label {
-        color:$primery-bg-color;
+        color: $primery-bg-color;
         font-weight: 700;
         font-size: 14px;
         line-height: 1.17;

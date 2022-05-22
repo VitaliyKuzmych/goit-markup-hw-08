@@ -16,7 +16,26 @@ p {
 .services {
     list-style: none;
 }
+
 a {
     list-style: none;
     text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }

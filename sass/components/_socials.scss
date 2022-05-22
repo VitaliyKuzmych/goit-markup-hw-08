@@ -2,14 +2,17 @@
     list-style: none;
     display: flex;
     justify-content: center;
+
     &__item {
-            width: 44px;
-            height: 44px;
-            margin-right: 10px;
-        }
+        width: 44px;
+        height: 44px;
+        margin-right: 10px;
+    }
+
     &__item:last-child {
         margin-right: 0px;
     }
+
     &__link {
         display: inline-flex;
         align-items: center;
@@ -17,20 +20,24 @@
         width: 100%;
         height: 100%;
         border-radius: 50%;
-        color:$icon-color;
-        background-color:$bg-icon-color;
-    
+        color: $icon-color;
+        background-color: $bg-icon-color;
+
         transition-property: color, background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
+
     &__icon {
         fill: currentColor;
     }
-    &__link:hover,&__link:focus {
-        color:$secondary-text-color;
-        background-color:$accent-color;
+
+    &__link:hover,
+    &__link:focus {
+        color: $secondary-text-color;
+        background-color: $accent-color;
     }
+
     &__link--footer {
         color: $secondary-text-color;
         background-color: $secondaty-bg-icon;
