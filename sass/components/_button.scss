@@ -1,6 +1,6 @@
 .button {
     @include centeredFlex(inline-flex);
-    display: inline-block;
+    display: inline-flex;
     border: none;
     border-radius: 4px;
     padding: 10px 32px;
