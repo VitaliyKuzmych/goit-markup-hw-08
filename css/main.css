@@ -80,11 +80,6 @@ body {
   padding-bottom: 60px;
 }
 
-.section--padding {
-  padding-top: 0px;
-  padding-bottom: 94px;
-}
-
 .list {
   list-style: none;
   font-weight: 500;
@@ -97,9 +92,9 @@ body {
   background-color: #F5F4FA;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 480px) {
   .container {
-    max-width: 1200px;
+    max-width: 480px;
   }
 }
 
@@ -292,6 +287,9 @@ body {
 @media (min-width: 1200px) {
   .container--header {
     max-height: 80px;
+  }
+  .contacts__link {
+    font-size: 14px;
   }
   .site-nav {
     margin-left: 93px;
@@ -543,9 +541,12 @@ body {
   }
 }
 
+.section--padding {
+  padding-top: 0px;
+}
+
 .team {
   margin-top: 0px;
-  margin-bottom: 30px;
   font-weight: 700;
   font-size: 28px;
   line-height: 1, 16;
@@ -656,7 +657,6 @@ body {
 
 .team-work__item img {
   width: 100%;
-  margin-bottom: 30px;
 }
 
 @media (min-width: 480px) {
@@ -885,10 +885,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.services__card {
-  margin-bottom: 30px;
 }
 
 .services__link {
